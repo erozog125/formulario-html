@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+h1 {
+  color: #0a0a4a;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+
+form {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 40rem;
+  border: groove;
+  box-shadow: -2px -2px 5px #808080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > label {
+  color: #054860;
+  font-weight: 800;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+form > fieldset {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  padding: 0.5rem;
+}
+
+form > fieldset > label {
+  color: #030e3b;
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
+form > fieldset > input {
+  width: 90%;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+.field-residencia{
+  justify-content: center;
+}
+
+.field-residencia > select,
+.field-educacion > select {
+  margin-top: 1rem;
+  width: 12rem;
+  border-radius: 10px;
+  background-color: #9da6b2;
+  font-size: 1.1rem;
+}
+
+form .field-educacion {
+  height: 4rem;  
+  justify-content: center;   
+}
+
+button {
+  margin-top: 1rem;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #21252b;
+  box-shadow: 0 0 10px #09097b;
+}
